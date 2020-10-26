@@ -1,5 +1,5 @@
 * {
-    width:100%;
+    /*width:100%;*/
     box-sizing:border-box;
 }
 
@@ -89,4 +89,26 @@ p {
 
 footer {
     margin-top: 100px;
+}
+
+@media screen and (min-width:768px) {
+    .alert-info{
+        visibility: hidden;
+    }
+    h1{
+        display: inline-block;
+        /*float: left;*/
+        text-align: left;
+    }
+    nav{
+        display:inline-flex;
+        justify-content: flex-end;
+        /*right: 0;*/
+    }
+    ul, li{
+        /*position: relative;*/
+        width: 100%;
+        display:inline-flex;
+        /*float: right;*/
+    }
 }
