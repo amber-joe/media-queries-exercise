@@ -1,5 +1,6 @@
 * {
     width:100%;
+    box-sizing:border-box;
 }
 
 /*.container {*/
@@ -9,3 +10,25 @@
 /*    align-content: center;*/
 /*}*/
 
+.alert-info {
+    width: 100%;
+    padding: 15px;
+    background-color: #cdffff;
+    border: 1px solid darkgray;
+    text-align: center;
+
+}
+
+.alert-info>a{
+    color: black;
+}
+
+
+img {
+    width:339px;
+    height:224px;
+}
+
+a {
+    text-decoration: none;
+}
