@@ -11,12 +11,12 @@
 /*}*/
 
 .alert-info {
-    width: 100%;
-    padding: 15px;
+    width: calc(100% - 18px);
+    padding: 20px;
     background-color: #cdffff;
     border: 1px solid darkgray;
     text-align: center;
-
+    margin: 8px;
 }
 
 .alert-info>a{
@@ -29,6 +29,39 @@ img {
     height:224px;
 }
 
+.header-img{
+    display:flex;
+    justify-content: center;
+}
+
 a {
     text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+li {
+    width: calc(100% - 18px);
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+    margin: 10px 10px 8px 8px;
+    list-style-type: none;
+}
+
+ul{
+    padding:0px;
+}
+
+.main{
+    margin: 15px 8px 25px 8px;
+}
+
+.sub-section{
+    margin: 15px 8px 25px 8px;
 }
